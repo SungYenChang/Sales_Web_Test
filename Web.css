@@ -1,0 +1,21 @@
+main{display : flex;
+     background-color: #eeeeee}
+
+main>.no1{flex: none;
+width : 100px;     
+background-color:#228861}
+
+main>.no2{flex: auto;
+background-color:#889251}
+
+main>.no3{flex: auto;
+background-color:#889251}
+
+main>.no4{flex: none;
+width : 100px;
+background-color:#88ff66}
+
+@media and (max-width: 1000px)
+{
+	main{width:45%}
+}
