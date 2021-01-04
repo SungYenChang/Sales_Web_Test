@@ -1,4 +1,5 @@
-main{display : flex;
+main{display : flex; flex-wrap:wrap;
+justify-content : center;
      background-color: #eeeeee}
 
 main>.no1{flex: none;
@@ -15,7 +16,11 @@ main>.no4{flex: none;
 width : 100px;
 background-color:#88ff66}
 
-@media and (max-width: 1000px)
+@media screen and (max-width: 1000px)
 {
-	main{width:45%}
+	main>.no1{width:45%}
+}
+@media screen and (max-width: 800px)
+{
+	main>.no1{width:90%}
 }
